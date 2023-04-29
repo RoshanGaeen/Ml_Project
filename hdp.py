@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-heart_disease_model = pickle.load(open('D:\project', 'rb'))
+heart_disease_model = pickle.load(open('C:/Users/pooja/OneDrive/Desktop/project', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
