@@ -1,12 +1,13 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 
 # loading the saved models
 
 heart_disease_model = pickle.load(open('C:/Users/pooja/OneDrive/Desktop/project/heart_disease_model', 'rb'))
 
+'''
 # sidebar for navigation
 with st.sidebar:
     
@@ -16,7 +17,7 @@ with st.sidebar:
                           icons=['heart'],
                           default_index=0)
     
-  
+'''
     # creating a button for Prediction
     
 if (selected == 'Heart Disease Prediction'):
